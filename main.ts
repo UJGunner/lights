@@ -11,4 +11,6 @@ basic.forever(function () {
 })
 basic.forever(function () {
     strip.rotate(1)
+    strip.show()
+    basic.pause(200)
 })
